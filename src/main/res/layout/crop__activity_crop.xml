@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -9,11 +8,14 @@
         android:id="@+id/crop_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/done_cancel_bar"
+        android:layout_above="@+id/done_cancel_bar"
         android:background="@drawable/crop__texture"/>
 
     <include
         android:id="@+id/done_cancel_bar"
-        layout="@layout/crop__layout_done_cancel"/>
+        layout="@layout/crop__layout_done_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

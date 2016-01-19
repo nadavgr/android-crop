@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class CropImageView extends ImageViewTouchBase {
 
-    ArrayList<HighlightView> highlightViews = new ArrayList<HighlightView>();
+    ArrayList<HighlightView> highlightViews = new ArrayList<>();
     HighlightView motionHighlightView;
     Context context;
 
